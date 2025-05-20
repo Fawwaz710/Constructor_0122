@@ -34,4 +34,9 @@ void mahasiswa :: cetak(){
     cout << "Nama : " << nama << endl;
 }
 
+int main(){
+    mahasiswa mhs1(102030);      //hanya NIM
+    mahasiswa mhs2("Andi");      //hanya Nama
+    mahasiswa mhs3(010203, "Santi"); //nim dan nama
+
 
