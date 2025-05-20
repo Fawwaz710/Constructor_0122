@@ -30,6 +30,12 @@ int main (){
     barang brg1("kunci", 20000);   //nama barang dan kode barang
     barang brg2("pintu", 500000);  //nama barang dan kode barang
     barang brg3("stiker", 120000); //nama barang dan kode barang
+
+    cout << "Barang 1: " ; brg1.cetak();
+    cout << "Barang 2: " ; brg2.cetak();
+    cout << "Barang 3: " ; brg3.cetak();
+
+    return 0;
 }
 
 };
