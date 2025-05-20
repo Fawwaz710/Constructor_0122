@@ -14,4 +14,16 @@ class barang {
     public:
     string namaBarang;
     int kodeBarang;
+
+
+barang (string nama, int kode){
+namaBarang = nama ; 
+kodeBarang = kode ;
+}
+
+void  barang:: cetak (){
+    cout << "nama barang" << endl;
+    cout << "kode barang" << endl;
+}
+
 };
