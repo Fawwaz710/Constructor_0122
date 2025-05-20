@@ -25,4 +25,13 @@ mahasiswa :: mahasiswa(string iNama){
     nama = iNama; //definisi hanya NAMA
 }
 
+mahasiswa::mahasiswa(int iNim, string iNama)
+{
+    nama: iNama;
+}
+void mahasiswa :: cetak(){
+    cout << endl << "nim : " << nim << endl;
+    cout << "Nama : " << nama << endl;
+}
+
 
