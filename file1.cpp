@@ -26,4 +26,10 @@ void  barang:: cetak (){
     cout << "kode barang" << endl;
 }
 
+int main (){
+    barang brg1("kunci", 20000);   //nama barang dan kode barang
+    barang brg2("pintu", 500000);  //nama barang dan kode barang
+    barang brg3("stiker", 120000); //nama barang dan kode barang
+}
+
 };
